@@ -125,7 +125,7 @@ int main()
 			for (int j = 0; j < UEnumber; j++)
 			{
 				UE temp;
-				temp.bitrate = 100;
+				temp.bitrate = 300;
 				temp.pktsize = 8000;
 				uniformdistribution(&temp);
 				temp.CQI = get_CQI(&temp);
